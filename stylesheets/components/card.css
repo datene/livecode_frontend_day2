@@ -1,0 +1,28 @@
+.card {
+  position: relative;
+  background-size: cover;
+  width: 600px;
+  height: 300px;
+  margin: 20px auto;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px rgba(1,1,1,0.3);
+}
+
+.card .category {
+  top: 5px;
+  position: absolute;
+  left: 5px;
+}
+
+.card .avatar {
+  top: 5px;
+  right: 5px;
+  position: absolute;
+}
+
+.card .card-content {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}

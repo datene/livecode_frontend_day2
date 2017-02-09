@@ -1,0 +1,31 @@
+.tabs {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  background: blue;
+  color: white;
+}
+
+.tabs .tab {
+  flex: 1 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+.tabs .tab:nth-child(1) {
+  margin-left: 30px;
+  border-top-left-radius: 15px;
+}
+
+.tabs .tab:nth-child(5) {
+  margin-right: 30px;
+  border-top-right-radius: 15px;
+}
+
+#tab-selected {
+  background-color: white;
+  color: black;
+}
